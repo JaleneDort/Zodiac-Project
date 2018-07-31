@@ -81,6 +81,8 @@ function getZodiac() {
 	var usersZodiacDay = myInputDay.value
 
 
+// looping through my Zodiacs to check if what the user selected matches any Zodiacs
+
 // JANUARY - Capricorn or Aquarius //
 	if(usersZodiacMonth == "January") {
 		if(usersZodiacDay < 20) {
@@ -163,7 +165,7 @@ function getZodiac() {
 			// total of 31 days in March
 		}	
 
-	}
+	};
 
 
 // APRIL - Aries or Taurus //
@@ -191,7 +193,7 @@ function getZodiac() {
 			document.write("Date not valid, please try again")
 			// total of 30 days in April
 		}
-	}
+	};
 
 
 // MAY - Taurus or Gemini //
@@ -219,7 +221,7 @@ function getZodiac() {
 			document.write("Date not valid, please try again")
 			// total of 31 days in May
 		}
-	}
+	};
 
 
 // JUNE - Gemini or Cancer //
@@ -247,7 +249,7 @@ function getZodiac() {
 			document.write("Date not valid, please try again")
 			// total of 30 days in June
 		}
-	}
+	};
 
 
 // JULY - Cancer or Leo //
@@ -275,7 +277,7 @@ function getZodiac() {
 			document.write("Date not valid, please try again")
 			// total of 31 days in July
 		}
-	}
+	};
 
 
 // AUGUST - Leo or Virgo //
@@ -299,12 +301,11 @@ function getZodiac() {
 			myImg.src = zodiacs["Virgo"].url;
 			// first half of new Zodiac Sign and last half of the month
 
-
 		} else {
 			document.write("Date not valid, please try again")
 			// total of 31 days in Augusut
 		}
-	}
+	};
 
 
 // SEPTEMBER - Virgo or Libra //
@@ -320,8 +321,106 @@ function getZodiac() {
 		}
 		// otherwise... check start day of new Zodiac Sign and run for 
 		// remainder of days left in the month to equal New Zodiac Sign
-		else if (usersZodiacDay >= 23 && usersZodiacDay <= 30)
-	}
+		else if(usersZodiacDay >= 23 && usersZodiacDay <= 30) {
+			// if falls in next Zodiac date ranges...
+			// print Zodiac title, image and description
+			myH1.innerText = zodiacs["Libra"].title;
+			myP.innerText = zodiacs["Libra"].description;
+			myImg.src = zodiacs["Libra"].url;
+			// first half of new Zodiac Sign and last half of the month
+
+		} else {
+			document.write("Date not valid, please try again")
+			// total of 30 days in September
+		}
+	};
+
+
+// OCTOBER - Libra or Scorpio //
+	if(usersZodiacMonth == "October") {
+		if(usersZodiacDay < 23) {
+			// if usersZodiacDay less than start day of next sign
+			//print Zodiac title, image and description
+			myH1.innerText = zodiacs["Libra"].title;
+			myP.innerText = zodiacs["Libra"].description;
+			myImg.src = zodiacs["Libra"].url;
+			// last half of Zodiac Sign but first half of the month
+
+		}
+		// otherwise... check start day of new Zodiac Sign and run for 
+		// remainder of days left in the month to equal New Zodiac Sign
+		else if(usersZodiacDay >= 23 && usersZodiacDay <= 31) {
+			// if falls in next Zodiac date ranges...
+			// print Zodiac title, image and description
+			myH1.innerText = zodiacs["Scorpio"].title;
+			myP.innerText = zodiacs["Scorpio"].description;
+			myImg.src = zodiacs["Scorpio"].url;
+			// first half of new Zodiac Sign and last half of the month
+
+		} else {
+			document.write("Date not valid, please try again")
+			// total of 31 days in October
+		}
+
+	};
+
+
+// NOVEMBER - Scorpio or Sagittarius //
+	if(usersZodiacMonth == "November") {
+		if(usersZodiacDay < 22) {
+			// if usersZodiacDay less than start day of next sign
+			//print Zodiac title, image and description
+			myH1.innerText = zodiacs["Scorpio"].title;
+			myP.innerText = zodiacs["Scorpio"].description;
+			myImg.src = zodiacs["Scorpio"].url;
+			// last half of Zodiac Sign but first half of the month
+
+		}
+		// otherwise... check start day of new Zodiac Sign and run for 
+		// remainder of days left in the month to equal New Zodiac Sign
+		else if(usersZodiacDay >= 22 && usersZodiacDay <= 30) {
+			// if falls in next Zodiac date ranges...
+			// print Zodiac title, image and description
+			myH1.innerText = zodiacs["Sagittarius"].title;
+			myP.innerText = zodiacs["Sagittarius"].description;
+			myImg.src = zodiacs["Sagittarius"].url;
+			// first half of new Zodiac Sign and last half of the month
+
+		} else {
+			document.write("Date not valid, please try again")
+			// total of 30 days in November
+		}
+
+	};
+
+
+// DECEMBER - Sagittarius or Capricorn //
+	if(usersZodiacMonth == "December") {
+		if(usersZodiacDay < 22) {
+			// if usersZodiacDay less than start day of next sign
+			//print Zodiac title, image and description
+			myH1.innerText = zodiacs["Sagittarius"].title;
+			myP.innerText = zodiacs["Sagittarius"].description;
+			myImg.src = zodiacs["Sagittarius"].url;
+			// last half of Zodiac Sign but first half of the month
+
+		}
+		// otherwise... check start day of new Zodiac Sign and run for 
+		// remainder of days left in the month to equal New Zodiac Sign
+		else if(usersZodiacDay >= 22 && usersZodiacDay <= 31) {
+			// if falls in next Zodiac date ranges...
+			// print Zodiac title, image and description
+			myH1.innerText = zodiacs["Capricorn"].title;
+			myP.innerText = zodiacs["Capricorn"].description;
+			myImg.src = zodiacs["Capricorn"].url;
+			// first half of new Zodiac Sign and last half of the month
+
+		} else {
+			document.write("Date not valid, please try again")
+			// total of 31 days in December
+		}
+
+	};
 
 
 	// for(var = i; i < zodiacs.dates;
