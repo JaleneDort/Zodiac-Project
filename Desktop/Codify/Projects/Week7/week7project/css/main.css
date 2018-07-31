@@ -8,6 +8,7 @@ h1 {
 	margin-bottom: 0;
 	font-size: 50px;
 	padding-top: 10px;
+	text-shadow: 1px 1px 1px #000, 3px 3px 5px #ca8cf1;
 }
 
 input {
@@ -18,12 +19,14 @@ input {
 	font-family: 'Julius Sans One', sans-serif;
 	color: white;
 	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
 }
 
 #selection {
 	font-family: 'Crete Round', serif;
 	color: white;
 	font-weight: lighter;
+	text-shadow: 1px 1px 1px #000;
 }
 
 /*.border {
@@ -63,6 +66,15 @@ input {
 }
 
 .bg-size {
-	height: 1000px;
+	height: 1200px;
 	padding-top: 5px;
+}
+
+#emptyP {
+/*	background-color: white;
+	height: 500px;*/
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
 }

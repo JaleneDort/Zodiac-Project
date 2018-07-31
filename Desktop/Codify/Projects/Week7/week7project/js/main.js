@@ -4,63 +4,63 @@
 var zodiacs = {
 	"Capricorn": {
 		title: "Capricorn",
-		description: "",
-		url: "img/squirrel.jpg",
+		description: "Also known as 'The Goat', (December 22nd thru January 19th). They are the measured master planners of the Zodiac family. Known for their power of structure and long term goals. They have a lot to teach us.",
+		url: "img/capricorn.jpg",
 	},
 	"Aquarius": {
 		title: "Aquarius",
-		description: "",
-		url: "img/squirrel.jpg",
+		description: "'The Water Bearer', (January 20th thru February 18th). They are the mad scientist and humanitariand of the world. Their ideas are futuristic and innovative. Their energy helps unite the world for socail justice.",
+		url: "img/aquarius.jpg",
 	},
 	"Pisces": {
 		title: "Pisces",
-		description: "",
-		url: "img/squirrel.jpg",
+		description: "'The Fish', (February 19th thru March 20th). They are the dreamers and healers of the Zodiac family. Their energy ignites and awakens compassion, imagination and artistry in everyone they meet.",
+		url: "img/pisces.jpg",
 	},	
 	"Aries": {
 		title: "Aries",
-		description: "",
-		url: " ",
+		description: "Also known as 'The Ram', (March 21st thru April 19th). Pioneers and trailbrazers fighting for their beliefs they are fearless and know how to put themselves out there",
+		url: "img/aries.jpg",
 	},
 	"Taurus": {
 		title: "Taurus",
-		description: "",
-		url: " ",
+		description: "'The Bull', (April 20th thru May 20th). They are the persistent providers seeking out security all while enjoying the earthly pleasures and getting the job done.",
+		url: "img/taurus.jpg",
 	},
 	"Gemini": {
 		title: "Gemini",
-		description: "",
-		url: " ",
+		description: "Also known as, 'The Twins', (May 21st thru June 20th). They are by far the most versatile and vibrant in the Zodiac family. Excellent communicators they collaborate and connect with the world thru communication, writing and movement.",
+		url: "img/gemini.jpg",
 	},
 	"Cancer": {
 		title: "Cancer",
-		description: "",
-		url: " ",
+		description: "The Crab, (June 21st thru July 22nd). Known for being the natural nurturer's of the Zodiac Family they help the world connect thru emotions and deep roots bringing a sense of family.",
+		url: "img/cancer.jpg",
 	},
 	"Leo": {
 		title: "Leo",
-		description: "",
-		url: " ",
+		description: "'The Lion' (July 23rd thru August 22nd). Leaders and regal rulers of the Zodiac family. They are creative, passionate, leaders and rulers. Known for being tough yet warm hearted in love and life.",
+		url: "img/leo.jpg",
 	},
 	"Virgo": {
 		title: "Virgo",
-		description: "",
-		url: " ",
+		description: "'The Pure', (August 23rd thru September 22nd). They are the masterful helpers always servings and teaching the world. Their strengths lie in their ability to prioritize wellbeing of themselves, their loved ones and the planet.",
+		url: "img/virgo.jpg",
 	},
 	"Libra": {
 		title: "Libra",
-		description: "",
-		url: " ",
+		description: "'The Scales', (September 23rd thru October 22nd). Such a beautiful balance Libra's give. They seek out peace and harmony cooperating with others with style and grace.",
+		url: "img/libra.jpg",
 	},
 	"Scorpio": {
 		title: "Scorpio",
-		description: "",
-		url: " ",
+		description: "'The Scorpion', (October 23rd thru November 21st). By far the most intense and focused of the Zodiac family. They are resourseful, brave and a true friend to all.",
+		url: "img/scorpio.jpg",
 	},
 	"Sagittarius": {
 		title: "Sagittarius",
-		description: "",
-		url: " ",
+		description: "'The Archer', (November 22nd thru December 21st). Curious and energetic they are the biggest travelers in the Zodiac family. They are generous and have a great sense of humor with a passion for being outdoors.",
+		url: "img/sagittarius.jpg",
 	}
 }
 		
