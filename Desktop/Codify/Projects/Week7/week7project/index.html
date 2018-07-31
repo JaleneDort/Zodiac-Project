@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--TITLE -->
+		<title>ZODIAC PROJECT</title>
+	<!-- BOOTSTRAP -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<!-- INDIVIDUAL GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Amatic+SC|Bangers|BenchNine|Crete+Round|Homemade+Apple|Julius+Sans+One|Lobster|Prosto+One|Ultra" rel="stylesheet">
+		<!--FONTAWESOME FOR ICONS // CSS CDN-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/5cb33b5142.css">
+		<!--CUSTOM CSS -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body class="bg bg-size ">
+<!-- ALL MY CODE -->
+<!-- **TEMPLATE with Bootstrap CDN, Fontawesome, Bootstrap and JS** -->
+	<div class="container pt-5">	
+		<div class="container pt-5">
+			<h1 id="zodiacQuestion">What is your Zodiac Sign?</h1>
+			<p id="subtitle">Learn what your Western Zodiac Sign is,
+				<br> and what that could say about your personality below.</p>
+		</div> 
+
+		<div class="container">
+			<h4 id="selection">Select your Birth Month and Birth Day below to find out.</h4>
+
+			<!-- <input id="userInput1" placeholder="Month"> -->
+			<!-- <input id="userInput2" placeholder="Day"> -->
+			
+			<div class="row justify-content-center">
+				<!-- <div class="col-4 input-group input-month-size mb-3 ml-auto p-0">
+					<input type="text" class="form-control" placeholder="January" aria-label="Name:" aria-describedby="basic-addon1"> -->
+			<!-- 	</div> -->
+			<!-- 		<div class="col-3 input-group input-day-size mb-3 mr-auto p-0">
+					<input id="userInput2" type="text" class="form-control" placeholder="..." aria-label="Name:" aria-describedby="basic-addon1">
+				</div> -->
+			 <!--  <span class="border mt-3"> -->
+				<div class="form-group col-md-4 input-month-size ml-auto">
+			    <!--   <label id="labelMonth" for="inputState">Month</label> -->
+			      <select id="userInput1" class="form-control">
+			        <option selected>Month</option>
+			        <option>January</option>
+			        <option>February</option>
+			        <option>March</option>
+			        <option>April</option>
+			        <option>May</option>
+			        <option>June</option>
+			        <option>July</option>
+			        <option>August</option>
+			        <option>September</option>
+			        <option>October</option>
+			        <option>November</option>
+			        <option>December</option>
+			      </select>
+			    </div>
+
+			    <div class="form-group col-md-4 input-month-size mr-auto">
+			<!--       <label id="labelDay" for="inputState">Day</label> -->
+			      <select id="userInput2" class="form-control">
+			        <option selected>Day</option>
+			        <option>1</option>
+			        <option>2</option>
+			        <option>3</option>
+			        <option>4</option>
+			        <option>5</option>
+			        <option>6</option>
+			        <option>7</option>
+			        <option>8</option>
+			        <option>9</option>
+			        <option>10</option>
+			        <option>11</option>
+			        <option>12</option>
+			        <option>13</option>
+			        <option>14</option>
+			        <option>15</option>
+			        <option>16</option>	
+			        <option>17</option>
+			        <option>18</option>	 
+			        <option>19</option>  
+			        <option>20</option>     
+			        <option>21</option>
+			        <option>22</option>
+			        <option>23</option>
+			        <option>24</option>
+			        <option>25</option>
+			        <option>26</option>
+			        <option>27</option>
+			        <option>28</option>
+			        <option>29</option>
+			        <option>30</option>
+			        <option>31</option>
+			      </select>
+			    </div>
+			<!--   </span> -->
+			</div>
+
+	<!-- 			<button class="col-2" onclick="getZodiac()">Get Zodiac Sign</button>
+	 -->		<div class="container-fluid pb-3 pt-3">
+					<div class="col-12 text-center">	
+
+						<!-- BUTTON -->
+						<button class="btn btn-grey btn-sm mx-auto" onclick="getZodiac()">GET ZODIAC</button>
+					</div>
+				</div>
+			</div>
+
+	<!-- PLACEHOLDER - populates onclick with Zodiac Results -->
+		<div>
+			<h1 id="emptyH1"></h1>
+			<p id="emptyP"></p>
+			<img id="emptyImg" class="img-fluid">
+		</div>
+	</div>
+
+
+
+
+		
+
+</body>
+
+	
+
+<!-- SCRIPTS -->
+	<!-- jquery --->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- popper --->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- bootstrap --->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		</body>
+	<!-- custom script -->
+		<script type="text/javascript" src="js/main.js"></script>
+</html>
+
+
+
+
+
+
+
+

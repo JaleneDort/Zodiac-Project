@@ -1,0 +1,68 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Crete Round', serif;
+	color: white;
+	margin-bottom: 0;
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+input {
+	text-align: center;
+}
+
+#subtitle {
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+#selection {
+	font-family: 'Crete Round', serif;
+	color: white;
+	font-weight: lighter;
+}
+
+/*.border {
+	padding: 5px;
+	background-color: white;
+}*/
+
+.input-month-size {
+	max-width: 150px;
+	text-align: center;
+
+}
+.input-day-size {
+	max-width: 75px;
+	text-align: center;
+}
+
+.btn-grey {
+	background-color: #37354d;
+	color: white;
+}
+
+#labelMonth {
+	margin-bottom: 0;
+}
+
+#labelDay {
+	margin-bottom: 0;
+}
+
+.bg {
+	background-image: url("../img/zodiac.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-size {
+	height: 1000px;
+	padding-top: 5px;
+}
